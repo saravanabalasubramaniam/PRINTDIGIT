@@ -1,16 +1,18 @@
-import java.io.*;
 import java.util.*;
-class Sumofnatural
+import java.io.*;
+class Printdigits
 {
   public static void main(String args[])
   {
-	Scanner input=new Scanner(System.in);
-	String a=input.nextLine();
-	for(int i=0;i<a.length();i++)
+        int a;
+        Scanner input = new Scanner(System.in);
+        a = input.nextInt();
+        String b=String.valueOf(c);
+	for(int i=0;i<b.length();i++)
 	{
-		System.out.print(a.charAt(i));
+		System.out.print(b.charAt(i));
 		System.out.print(" ");
-	}
-		
-   }
-}	
+	}		
+	
+  }
+}
